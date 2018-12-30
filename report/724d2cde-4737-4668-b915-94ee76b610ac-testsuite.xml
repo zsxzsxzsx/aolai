@@ -1,0 +1,65 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1545987021644" stop="1545987052578">
+  <name>test_login2</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1545987021644" status="passed" stop="1545987052578">
+      <name>TestLogin.test_login[13488834010-159357li-1-None-None]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7480-MainThread"/>
+        <label name="host" value="GTQYL412YJWMTFN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1545987034718" status="passed" stop="1545987036355">
+          <name>点击我的</name>
+          <title>点击我的</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1545987036355" status="passed" stop="1545987037771">
+          <name>点击已有账号</name>
+          <title>点击已有账号</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1545987037771" status="passed" stop="1545987045923">
+          <name>登录逻辑</name>
+          <title>登录逻辑</title>
+          <attachments>
+            <attachment source="3de12cd3-f3af-4937-97fc-e8524bf97121-attachment.txt" title="登录" type="text/plain"/>
+            <attachment source="e896822b-5c2a-4b0a-95eb-da9ea2ba279a-attachment.txt" title="登录" type="text/plain"/>
+            <attachment source="46244d69-b4ff-4665-a8b0-855191c97268-attachment.txt" title="登录" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1545987045923" status="passed" stop="1545987047632">
+          <name>判断是否登录成功</name>
+          <title>判断是否登录成功</title>
+          <attachments>
+            <attachment source="b60fbad1-5b08-4615-8046-c6fb2e1dc3b5-attachment.txt" title="个人中心" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1545987047632" status="passed" stop="1545987048676">
+          <name>进入个人中心设置页面</name>
+          <title>进入个人中心设置页面</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1545987048676" status="passed" stop="1545987052578">
+          <name>退出账号</name>
+          <title>退出账号</title>
+          <attachments>
+            <attachment source="c3480ec9-353f-4f9b-ae6a-d99228d2c491-attachment.txt" title="退出账号" type="text/plain"/>
+            <attachment source="7f8efc25-663a-4c67-9cf2-d755670c28a1-attachment.txt" title="退出账号" type="text/plain"/>
+            <attachment source="616b6185-eee2-47cd-9a99-36943bc2dca3-attachment.txt" title="退出账号" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
